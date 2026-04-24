@@ -26,16 +26,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2598002320895128142}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2650150440983124369}
   - {fileID: 8679872651838046453}
   - {fileID: 6192705539146260526}
-  - {fileID: 5203375800186553556}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8002239302341884523
 MeshFilter:
@@ -56,10 +56,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -84,6 +86,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &375330042246386819
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -92,96 +95,25 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2598002320895128142}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Size: {x: 0.32486233, y: 0.73570067, z: 0.49410695}
   m_Center: {x: 0.00041846937, y: 0.36815527, z: 0.0059125954}
---- !u!1001 &2801948457209662051
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1321433208466620509}
-    m_Modifications:
-    - target: {fileID: 5602187059510439727, guid: 6ae50922505306c4eaccb0809233bc08,
-        type: 3}
-      propertyPath: m_Name
-      value: P_pointlight_fire_anim_dungeon
-      objectReference: {fileID: 0}
-    - target: {fileID: 5602187059510439727, guid: 6ae50922505306c4eaccb0809233bc08,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 7986183954586947255, guid: 6ae50922505306c4eaccb0809233bc08,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7986183954586947255, guid: 6ae50922505306c4eaccb0809233bc08,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7986183954586947255, guid: 6ae50922505306c4eaccb0809233bc08,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.535
-      objectReference: {fileID: 0}
-    - target: {fileID: 7986183954586947255, guid: 6ae50922505306c4eaccb0809233bc08,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7986183954586947255, guid: 6ae50922505306c4eaccb0809233bc08,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7986183954586947255, guid: 6ae50922505306c4eaccb0809233bc08,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7986183954586947255, guid: 6ae50922505306c4eaccb0809233bc08,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9043935959653546660, guid: 6ae50922505306c4eaccb0809233bc08,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.33
-      objectReference: {fileID: 0}
-    - target: {fileID: 9043935959653546662, guid: 6ae50922505306c4eaccb0809233bc08,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 9043935959653546663, guid: 6ae50922505306c4eaccb0809233bc08,
-        type: 3}
-      propertyPath: m_Range
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 9043935959653546663, guid: 6ae50922505306c4eaccb0809233bc08,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6ae50922505306c4eaccb0809233bc08, type: 3}
---- !u!4 &5203375800186553556 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7986183954586947255, guid: 6ae50922505306c4eaccb0809233bc08,
-    type: 3}
-  m_PrefabInstance: {fileID: 2801948457209662051}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4539363689605826474
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 1321433208466620509}
     m_Modifications:
     - target: {fileID: 1889320453829811771, guid: 4df1010b835edcc42bc93827d56d737c,
@@ -225,6 +157,9 @@ PrefabInstance:
       value: P_FX_fire_v3_dungeon
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4df1010b835edcc42bc93827d56d737c, type: 3}
 --- !u!4 &2650150440983124369 stripped
 Transform:
@@ -237,6 +172,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 1321433208466620509}
     m_Modifications:
     - target: {fileID: 1889320453829811771, guid: 4df1010b835edcc42bc93827d56d737c,
@@ -280,6 +216,9 @@ PrefabInstance:
       value: P_FX_fire_v3_dungeon
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4df1010b835edcc42bc93827d56d737c, type: 3}
 --- !u!4 &6192705539146260526 stripped
 Transform:
@@ -292,6 +231,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 1321433208466620509}
     m_Modifications:
     - target: {fileID: 1889320453829811771, guid: 4df1010b835edcc42bc93827d56d737c,
@@ -335,6 +275,9 @@ PrefabInstance:
       value: P_FX_fire_v3_dungeon
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4df1010b835edcc42bc93827d56d737c, type: 3}
 --- !u!4 &8679872651838046453 stripped
 Transform:
