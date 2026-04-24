@@ -96,7 +96,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 877c90bbfc4019c4098881627e5374f2,
+    type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 958062e5326eea5409a846e48d041584,
     type: 2}
 --- !u!196 &4
@@ -217,7 +218,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &18507218
 MonoBehaviour:
@@ -1944,15 +1945,40 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_PROP_candle_dungeon_11
       objectReference: {fileID: 0}
+    - target: {fileID: 2774157831713844454, guid: 5a9170bcffcbe5a4da4d85543661d699,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3939866739599337908, guid: 5a9170bcffcbe5a4da4d85543661d699,
         type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3939866739599337908, guid: 5a9170bcffcbe5a4da4d85543661d699,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5212453187528907015, guid: 5a9170bcffcbe5a4da4d85543661d699,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5270225694117525928, guid: 5a9170bcffcbe5a4da4d85543661d699,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5270225694117525928, guid: 5a9170bcffcbe5a4da4d85543661d699,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727957372622728225, guid: 5a9170bcffcbe5a4da4d85543661d699,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2194,7 +2220,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &81935107
 Transform:
@@ -3977,7 +4003,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &128711065
 Transform:
@@ -4590,7 +4616,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &150594853
 Transform:
@@ -5736,7 +5762,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &180294588
 Transform:
@@ -6137,7 +6163,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &187315266
 Transform:
@@ -6776,7 +6802,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &191704151
 Transform:
@@ -7408,7 +7434,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &217696368
 Transform:
@@ -7518,6 +7544,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 409383776}
     m_Modifications:
+    - target: {fileID: 832047933086465325, guid: da2878453be8dd54c87958e5b4d31f2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2470490763745708642, guid: da2878453be8dd54c87958e5b4d31f2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4301064687230412964, guid: da2878453be8dd54c87958e5b4d31f2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4301064687230412965, guid: da2878453be8dd54c87958e5b4d31f2b,
         type: 3}
       propertyPath: m_Range
@@ -7593,10 +7634,20 @@ PrefabInstance:
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7844825145004443586, guid: da2878453be8dd54c87958e5b4d31f2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8374007595148082773, guid: da2878453be8dd54c87958e5b4d31f2b,
         type: 3}
       propertyPath: m_Name
       value: P_PROP_torch_wall_dungeon (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374007595148082773, guid: da2878453be8dd54c87958e5b4d31f2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8383,6 +8434,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_PROP_bookpile_dungeon_01
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 96bf3c598cc586e459a5c355a159ce18,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9658,6 +9714,8 @@ GameObject:
   - component: {fileID: 330585545}
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
+  - component: {fileID: 330585549}
+  - component: {fileID: 330585548}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -9732,13 +9790,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.70039093, z: -0, w: -0.7137595}
-  m_LocalPosition: {x: 3.12, y: 1.257, z: 2.456}
+  m_LocalRotation: {x: -0, y: -0.16497253, z: -0, w: -0.9862982}
+  m_LocalPosition: {x: 1.2, y: 1.52, z: 5.19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -271.083, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -341.009, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9783,6 +9841,83 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &330585548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 11400000, guid: 21ec01d2c6994ce44af40aa69dacfb54, type: 2}
+  isGlobal: 1
+  blendDistance: 0
+  weight: 1
+  priority: 0
+--- !u!114 &330585549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 330585546}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 2
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 0
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
 --- !u!1001 &331402188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11091,7 +11226,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &365387482
 Transform:
@@ -11716,10 +11851,25 @@ PrefabInstance:
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1305089538351783304, guid: 57b888f672eba6a468243b378976c3b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777835605116631829, guid: 57b888f672eba6a468243b378976c3b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2142159108013454346, guid: 57b888f672eba6a468243b378976c3b1,
         type: 3}
       propertyPath: m_Name
       value: P_PROP_candle_dungeon_07 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2142159108013454346, guid: 57b888f672eba6a468243b378976c3b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3161847458973386265, guid: 57b888f672eba6a468243b378976c3b1,
         type: 3}
@@ -11790,6 +11940,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7374443669072776102, guid: 57b888f672eba6a468243b378976c3b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7847506302325222715, guid: 57b888f672eba6a468243b378976c3b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -12249,7 +12409,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &404106845
 Transform:
@@ -15106,6 +15266,21 @@ PrefabInstance:
       propertyPath: m_RenderingLayers
       value: 256
       objectReference: {fileID: 0}
+    - target: {fileID: 832047933086465325, guid: da2878453be8dd54c87958e5b4d31f2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2470490763745708642, guid: da2878453be8dd54c87958e5b4d31f2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4301064687230412964, guid: da2878453be8dd54c87958e5b4d31f2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4301064687230412965, guid: da2878453be8dd54c87958e5b4d31f2b,
         type: 3}
       propertyPath: m_Range
@@ -15231,10 +15406,20 @@ PrefabInstance:
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7844825145004443586, guid: da2878453be8dd54c87958e5b4d31f2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8374007595148082773, guid: da2878453be8dd54c87958e5b4d31f2b,
         type: 3}
       propertyPath: m_Name
       value: P_PROP_torch_wall_dungeon (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374007595148082773, guid: da2878453be8dd54c87958e5b4d31f2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16795,6 +16980,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1340245011052399978, guid: 736520f652317574da1b34d8fb73d7e7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5334083593401675863, guid: 736520f652317574da1b34d8fb73d7e7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16845,10 +17035,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7810065145747881433, guid: 736520f652317574da1b34d8fb73d7e7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8961355240723235396, guid: 736520f652317574da1b34d8fb73d7e7,
         type: 3}
       propertyPath: m_Name
       value: P_PROP_candle_dungeon_12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8961355240723235396, guid: 736520f652317574da1b34d8fb73d7e7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -18216,6 +18416,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 619960811}
     m_Modifications:
+    - target: {fileID: 884112045734814356, guid: 874b335138a58e1409b1b520f72379a5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2058365543044507554, guid: 874b335138a58e1409b1b520f72379a5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18271,10 +18476,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_PROP_candle_dungeon_10
       objectReference: {fileID: 0}
+    - target: {fileID: 3083718171312821681, guid: 874b335138a58e1409b1b520f72379a5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7932129280531863570, guid: 874b335138a58e1409b1b520f72379a5,
         type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8268488359955419687, guid: 874b335138a58e1409b1b520f72379a5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -18985,7 +19200,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &617494740
 Transform:
@@ -20259,7 +20474,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &673740228
 Transform:
@@ -21134,10 +21349,25 @@ PrefabInstance:
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1305089538351783304, guid: 57b888f672eba6a468243b378976c3b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777835605116631829, guid: 57b888f672eba6a468243b378976c3b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2142159108013454346, guid: 57b888f672eba6a468243b378976c3b1,
         type: 3}
       propertyPath: m_Name
       value: P_PROP_candle_dungeon_07
+      objectReference: {fileID: 0}
+    - target: {fileID: 2142159108013454346, guid: 57b888f672eba6a468243b378976c3b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3161847458973386265, guid: 57b888f672eba6a468243b378976c3b1,
         type: 3}
@@ -21209,6 +21439,16 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7374443669072776102, guid: 57b888f672eba6a468243b378976c3b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7847506302325222715, guid: 57b888f672eba6a468243b378976c3b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 4331061001519069208, guid: 57b888f672eba6a468243b378976c3b1, type: 3}
@@ -21237,7 +21477,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &686459150
 Transform:
@@ -21958,7 +22198,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &733755628
 Transform:
@@ -27696,7 +27936,7 @@ PrefabInstance:
     - target: {fileID: 2527479621181659631, guid: d78846f8e45324748ae6850650faddcc,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 127
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2527479621181659634, guid: d78846f8e45324748ae6850650faddcc,
         type: 3}
@@ -27791,7 +28031,7 @@ PrefabInstance:
     - target: {fileID: 2527479621708168913, guid: d78846f8e45324748ae6850650faddcc,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 127
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2527479622001870890, guid: d78846f8e45324748ae6850650faddcc,
         type: 3}
@@ -28575,7 +28815,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &972143807
 Transform:
@@ -30097,7 +30337,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!220 &976898346
 LightProbeGroup:
@@ -31592,10 +31832,35 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_PROP_candle_dungeon_11 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2774157831713844454, guid: 5a9170bcffcbe5a4da4d85543661d699,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3939866739599337908, guid: 5a9170bcffcbe5a4da4d85543661d699,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5212453187528907015, guid: 5a9170bcffcbe5a4da4d85543661d699,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5270225694117525928, guid: 5a9170bcffcbe5a4da4d85543661d699,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5270225694117525928, guid: 5a9170bcffcbe5a4da4d85543661d699,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727957372622728225, guid: 5a9170bcffcbe5a4da4d85543661d699,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32596,6 +32861,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 409383776}
     m_Modifications:
+    - target: {fileID: 884112045734814356, guid: 874b335138a58e1409b1b520f72379a5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2058365543044507554, guid: 874b335138a58e1409b1b520f72379a5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -32651,15 +32921,35 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_PROP_candle_dungeon_10
       objectReference: {fileID: 0}
+    - target: {fileID: 3083718171312821681, guid: 874b335138a58e1409b1b520f72379a5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5299851026934345812, guid: 874b335138a58e1409b1b520f72379a5,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.276
       objectReference: {fileID: 0}
+    - target: {fileID: 5299851026934345814, guid: 874b335138a58e1409b1b520f72379a5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5299851026934345815, guid: 874b335138a58e1409b1b520f72379a5,
         type: 3}
       propertyPath: m_Range
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8268488359955419687, guid: 874b335138a58e1409b1b520f72379a5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8768700655335777759, guid: 874b335138a58e1409b1b520f72379a5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33083,6 +33373,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 619960811}
     m_Modifications:
+    - target: {fileID: 884112045734814356, guid: 874b335138a58e1409b1b520f72379a5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2058365543044507554, guid: 874b335138a58e1409b1b520f72379a5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33138,10 +33433,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_PROP_candle_dungeon_10 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3083718171312821681, guid: 874b335138a58e1409b1b520f72379a5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7932129280531863570, guid: 874b335138a58e1409b1b520f72379a5,
         type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8268488359955419687, guid: 874b335138a58e1409b1b520f72379a5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -35224,7 +35529,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!64 &1119265065
 MeshCollider:
@@ -40145,6 +40450,21 @@ PrefabInstance:
       propertyPath: m_RenderingLayers
       value: 256
       objectReference: {fileID: 0}
+    - target: {fileID: 832047933086465325, guid: da2878453be8dd54c87958e5b4d31f2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2470490763745708642, guid: da2878453be8dd54c87958e5b4d31f2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4301064687230412964, guid: da2878453be8dd54c87958e5b4d31f2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4301064687230412965, guid: da2878453be8dd54c87958e5b4d31f2b,
         type: 3}
       propertyPath: m_Range
@@ -40270,10 +40590,20 @@ PrefabInstance:
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7844825145004443586, guid: da2878453be8dd54c87958e5b4d31f2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8374007595148082773, guid: da2878453be8dd54c87958e5b4d31f2b,
         type: 3}
       propertyPath: m_Name
       value: P_PROP_torch_wall_dungeon
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374007595148082773, guid: da2878453be8dd54c87958e5b4d31f2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -41398,7 +41728,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1350179642
 Transform:
@@ -42816,7 +43146,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1371511111
 Transform:
@@ -43352,10 +43682,25 @@ PrefabInstance:
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1305089538351783304, guid: 57b888f672eba6a468243b378976c3b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777835605116631829, guid: 57b888f672eba6a468243b378976c3b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2142159108013454346, guid: 57b888f672eba6a468243b378976c3b1,
         type: 3}
       propertyPath: m_Name
       value: P_PROP_candle_dungeon_07
+      objectReference: {fileID: 0}
+    - target: {fileID: 2142159108013454346, guid: 57b888f672eba6a468243b378976c3b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3161847458973386265, guid: 57b888f672eba6a468243b378976c3b1,
         type: 3}
@@ -43406,6 +43751,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7374443669072776102, guid: 57b888f672eba6a468243b378976c3b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7847506302325222715, guid: 57b888f672eba6a468243b378976c3b1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -48042,6 +48397,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 409383776}
     m_Modifications:
+    - target: {fileID: 832047933086465325, guid: da2878453be8dd54c87958e5b4d31f2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2470490763745708642, guid: da2878453be8dd54c87958e5b4d31f2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2947165753587784885, guid: da2878453be8dd54c87958e5b4d31f2b,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -48051,6 +48416,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.2368
+      objectReference: {fileID: 0}
+    - target: {fileID: 4301064687230412964, guid: da2878453be8dd54c87958e5b4d31f2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4301064687230412965, guid: da2878453be8dd54c87958e5b4d31f2b,
         type: 3}
@@ -48127,10 +48497,20 @@ PrefabInstance:
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7844825145004443586, guid: da2878453be8dd54c87958e5b4d31f2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8374007595148082773, guid: da2878453be8dd54c87958e5b4d31f2b,
         type: 3}
       propertyPath: m_Name
       value: P_PROP_torch_wall_dungeon
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374007595148082773, guid: da2878453be8dd54c87958e5b4d31f2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -48623,7 +49003,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1546793654
 Transform:
@@ -49748,7 +50128,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1607251969
 Transform:
@@ -51352,7 +51732,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1662259945
 Transform:
@@ -51682,7 +52062,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1687700448
 Transform:
@@ -53386,7 +53766,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1729606930
 Transform:
@@ -55522,7 +55902,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1792045639
 Transform:
@@ -56973,6 +57353,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 619960811}
     m_Modifications:
+    - target: {fileID: 514312177463550537, guid: aa11e6ea15d6aed409233f1da131d3d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1321433208466620509, guid: aa11e6ea15d6aed409233f1da131d3d3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -57028,6 +57413,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_PROP_candle_dungeon_02
       objectReference: {fileID: 0}
+    - target: {fileID: 2598002320895128142, guid: aa11e6ea15d6aed409233f1da131d3d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3073362476911821458, guid: aa11e6ea15d6aed409233f1da131d3d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4161745513943499179, guid: aa11e6ea15d6aed409233f1da131d3d3,
         type: 3}
       propertyPath: m_Materials.Array.size
@@ -57038,10 +57433,20 @@ PrefabInstance:
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6079203646341034529, guid: aa11e6ea15d6aed409233f1da131d3d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7310290550113310927, guid: aa11e6ea15d6aed409233f1da131d3d3,
         type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8779865678496518906, guid: aa11e6ea15d6aed409233f1da131d3d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -58009,10 +58414,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_PROP_candle_dungeon_11
       objectReference: {fileID: 0}
+    - target: {fileID: 2774157831713844454, guid: 5a9170bcffcbe5a4da4d85543661d699,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3028160833411228545, guid: 5a9170bcffcbe5a4da4d85543661d699,
         type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3939866739599337908, guid: 5a9170bcffcbe5a4da4d85543661d699,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5212453187528907015, guid: 5a9170bcffcbe5a4da4d85543661d699,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -58566,6 +58986,21 @@ PrefabInstance:
       propertyPath: m_RenderingLayers
       value: 256
       objectReference: {fileID: 0}
+    - target: {fileID: 832047933086465325, guid: da2878453be8dd54c87958e5b4d31f2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2470490763745708642, guid: da2878453be8dd54c87958e5b4d31f2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4301064687230412964, guid: da2878453be8dd54c87958e5b4d31f2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4301064687230412965, guid: da2878453be8dd54c87958e5b4d31f2b,
         type: 3}
       propertyPath: m_Range
@@ -58691,10 +59126,20 @@ PrefabInstance:
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7844825145004443586, guid: da2878453be8dd54c87958e5b4d31f2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8374007595148082773, guid: da2878453be8dd54c87958e5b4d31f2b,
         type: 3}
       propertyPath: m_Name
       value: P_PROP_torch_wall_dungeon (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374007595148082773, guid: da2878453be8dd54c87958e5b4d31f2b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -59617,7 +60062,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1984219502
 Transform:
@@ -62002,7 +62447,7 @@ PrefabInstance:
     - target: {fileID: 2527479621181659631, guid: d78846f8e45324748ae6850650faddcc,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 127
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2527479621181659634, guid: d78846f8e45324748ae6850650faddcc,
         type: 3}
@@ -62067,7 +62512,7 @@ PrefabInstance:
     - target: {fileID: 2527479621295869111, guid: d78846f8e45324748ae6850650faddcc,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 127
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2527479621475348243, guid: d78846f8e45324748ae6850650faddcc,
         type: 3}
@@ -62142,7 +62587,7 @@ PrefabInstance:
     - target: {fileID: 2527479621708168913, guid: d78846f8e45324748ae6850650faddcc,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 127
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2527479622001870890, guid: d78846f8e45324748ae6850650faddcc,
         type: 3}
@@ -63028,7 +63473,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2133610988
 Transform:
@@ -63146,7 +63591,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2139425504
 Transform:
